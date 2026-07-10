@@ -1,0 +1,83 @@
+@media (max-width:1400px) {
+ .menulist li a{
+    font-size: 18px;
+ }
+ .heroheight {
+    min-height: auto;
+}
+.location-card{
+    height: 360px;
+}
+
+}
+@media (max-width:1240px) {
+    .herohead h1{
+            font-size: 96px;
+            line-height: 100%;
+    }
+    .herocontainer {
+    /* max-width: 1573px; */
+    /* margin: auto; */
+    padding-left: 200px;
+}
+.hero-slider , .slide{
+    height: 372px;
+}
+.phone-icon{
+    height: 60px;
+    width: 60px;
+}
+.contact-card p a{
+    font-size: 27px;
+}
+.billcont {
+    padding-right: 40px;
+}
+.btn{
+    padding: 20px 25px;
+}
+.custom-container {
+    max-width: 1290px;
+    margin: auto;
+    padding: 0 60px;
+}
+.heading{
+    font-size: 48px;
+    line-height:48px;
+}
+.atbox h2{
+    font-size: 52px;
+}
+.location-card h3{
+    font-size: 78px;
+}
+.review1{
+    font-size: 20px;
+}
+.socalimg figure img{
+    width: 100%;
+}
+.rifhtsocial ul li a svg{
+    height: 25px;
+}
+.rifhtsocial ul li a{
+    height: 60px;
+    width: 60px;
+}
+.footer{
+    padding: 0 60px;
+}
+.subscrob h1 ,
+.subscrob h1 span{
+    font-size: 68px;
+}
+.copyright p, .copyright p a, .copyright ul li a{
+    font-size: 14px;
+}
+.footerlist .locationcard a br{
+    display: none;
+}
+.footerlist .locationcard a{
+    font-size: 18px;
+}
+}

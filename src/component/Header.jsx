@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from  "../assets/imgs/logo.png"
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <div className="row">
         <div className="col-lg-3">
           <a href="#!" className='logo'>
-            <img src="/src/assets/imgs/logo.png" alt="" />
+            <img src={logo} alt="" />
           </a>
         </div>
         <div className="col-lg-7">

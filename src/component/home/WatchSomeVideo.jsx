@@ -3,7 +3,7 @@ import map from "../../assets/imgs/map.png"
 import Heading from '../reuse/Heading'
 const WatchSomeVideo = () => {
   return (
-    <div className='p-70'>
+    <div className='p-70 watchsection'>
         <div className="custom-container">
             <div className="row">
                 <div className="col-lg-6">

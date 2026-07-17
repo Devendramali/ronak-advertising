@@ -9,7 +9,7 @@ const Footer = () => {
             <h1 data-gsap>Subscribe <span>Newsletter</span></h1>
             <p data-gsap>Business consulting services can range from strategy develo financial planning, marketing, human resources management</p>
                 <div data-gsap className="input">
-                        <input type="text" placeholder='street address or zip/postal code' />
+                        <input type="text" placeholder='Your E-mail' />
                         <button>
                             Subscribe
                         </button>

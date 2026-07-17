@@ -10,6 +10,7 @@ import { useLocation } from "react-router-dom";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import Home from './pages/Home'
+import About from './pages/About'
 
 // import loader from "./assets/loader.gif"
 
@@ -45,6 +46,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route  path="/about" element={<About/>} />
             {/* <Route path='/*' element={<PortfolioPage />} /> */}
           
 

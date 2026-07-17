@@ -2,7 +2,7 @@ import React from "react";
 
 const Heading = ({ title, subtitle, className = "" , titleclass = ""}) => {
   return (
-    <div className={className} data-gsap>
+    <div className={`headingbox ${className}`} data-gsap>
       <p className="subheding" data-gsap>{subtitle}</p>
       <h2 data-gsap
         className={`heading ${titleclass}`}

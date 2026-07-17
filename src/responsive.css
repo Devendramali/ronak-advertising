@@ -12,57 +12,57 @@
 }
 @media (max-width:1240px) {
     .herohead h1{
-            font-size: 96px;
-            line-height: 100%;
+        font-size: 96px;
+        line-height: 100%;
     }
     .herocontainer {
-    /* max-width: 1573px; */
-    /* margin: auto; */
-    padding-left: 200px;
-}
-.hero-slider , .slide{
-    height: 372px;
-}
-.phone-icon{
-    height: 60px;
-    width: 60px;
-}
-.contact-card p a{
-    font-size: 27px;
-}
-.billcont {
-    padding-right: 40px;
-}
-.btn{
-    padding: 20px 25px;
-}
-.custom-container {
-    max-width: 1290px;
-    margin: auto;
-    padding: 0 60px;
-}
-.heading{
-    font-size: 48px;
-    line-height:48px;
-}
-.atbox h2{
-    font-size: 52px;
-}
-.location-card h3{
-    font-size: 78px;
-}
-.review1{
-    font-size: 20px;
-}
-.socalimg figure img{
-    width: 100%;
-}
-.rifhtsocial ul li a svg{
-    height: 25px;
-}
-.rifhtsocial ul li a{
-    height: 60px;
-    width: 60px;
+        /* max-width: 1573px; */
+        /* margin: auto; */
+        padding-left: 200px;
+    }
+    .hero-slider , .slide{
+        height: 372px;
+    }
+    .phone-icon{
+        height: 60px;
+        width: 60px;
+    }
+    .contact-card p a{
+        font-size: 27px;
+    }
+    .billcont {
+        padding-right: 40px;
+    }
+    .btn{
+        padding: 20px 25px;
+    }
+    .custom-container {
+        max-width: 1290px;
+        margin: auto;
+        padding: 0 60px;
+    }
+    .heading{
+        font-size: 48px;
+        line-height:48px;
+    }
+    .atbox h2{
+        font-size: 52px;
+    }
+    .location-card h3{
+        font-size: 78px;
+    }
+    .review1{
+        font-size: 20px;
+    }
+    .socalimg figure img{
+        width: 100%;
+    }
+    .rifhtsocial ul li a svg{
+        height: 25px;
+    }
+    .rifhtsocial ul li a{
+        height: 60px;
+        width: 60px;
 }
 .footer{
     padding: 0 60px;
@@ -79,5 +79,616 @@
 }
 .footerlist .locationcard a{
     font-size: 18px;
+}
+}
+@media (max-width:1024px) {
+ .mobhide{
+        display: none;
+    }
+    .hamberger{
+              display: flex;
+        justify-content: end;
+        align-content: center;
+        height: 100%;
+        align-items: center;
+    }
+    .herocontainer{
+        padding: 0 ;
+    }
+    .rightcard{
+        flex-direction: row;
+        padding: 17px;
+    }
+    .container{
+        padding: 0 16px;
+    }
+  
+    .billcont{
+        padding: 0;
+    }
+    .atbox{
+        height: 100%;
+    }
+    .hidedesk{
+  display: block;
+}
+  
+  
+   
+    .cardmenu{
+        width: 100%;
+        position: relative;
+        /* overflow: auto; */
+        height: 100%;
+         border-radius: 0px;    
+         top: auto;
+         left: auto;
+         bottom: auto;
+         right: auto;
+        }
+        .leftcard{
+            
+            border-radius: 0 0 24px 24px;
+            overflow: hidden;
+    }
+    .hero-slider{
+        height: auto;
+        display: flex;
+        flex-direction:column-reverse;
+         border-radius: 24px;
+    }
+    .slide{
+        height: 330px;
+        background-size: cover;
+    }
+  
+    .cardmenu .row > div{
+        /* padding: 0; */
+    }
+    .herohead{
+        padding: 0 16px;
+    }
+    .billcont{
+        padding: 0 16px;
+
+    }
+    .custom-container{
+        padding: 0 40px;
+    }
+    .row{
+        gap: 20px 0;
+    }
+    .heading{
+        margin-bottom: 0px;
+    }
+    /* .review-section .custom-container > .row,
+    .watchsection .custom-container > .row{
+        flex-direction: column-reverse;
+    } */
+    .blogcontent{
+        padding-left: 16px;
+    }
+    .reviewsvg{
+        height: 65px;
+    }
+    .input input{
+        padding-right: 90px;
+    }
+    /* .location-card:last-child {
+    grid-column: span 12;
+} */
+.testimonial-card{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-icon{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+}
+.user-info{
+    order: -1;
+}
+.review1{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+text-align: center;
+margin-top: 14px;
+}
+.swiper-pagination{
+    left: 0 !important;
+    justify-content: center;
+}
+.logo-box{
+    width: 100%;
+}
+.logo-box img{
+    max-width: 100%;
+}
+.homevideo img{
+    height: 100%;
+    object-fit: cover;
+}
+.homevideo{
+    height: 479px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.rifhtsocial{
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.footer{
+    padding: 0;
+    border-radius: 0;
+}
+.footer .curve{
+    border-radius: 0;
+    padding: 40px;
+
+}
+.footerlist h3{
+    text-align: center;
+}
+.footerlist ul li{
+    text-align: center;
+}
+/* .copyright{
+    flex-direction: column;
+}
+.copyright ul{
+    flex-direction: column;
+    align-items: center;
+}
+.sociallisk ul{
+    padding: 0;
+    justify-content: center;
+} */
+.footer-container .row{
+    gap: 58px 0;
+}
+.menu .row{
+    justify-content: space-between;
+}
+.box2{
+    display: flex;
+    align-items: center;
+}
+.line{
+    padding: 17px;
+    margin-bottom: 17px;
+}
+.review-section .row{
+    gap: 40px 0;
+}
+.avertising .headingbox{
+    padding: 0 16px;
+}
+.img2mob{
+    display: none;
+}
+
+.footer .curve{
+    padding: 40px 16px  ;
+}
+}
+@media (max-width:991px) {
+ .mobhide{
+        display: none;
+    }
+    .hamberger{
+              display: flex;
+        justify-content: end;
+        align-content: center;
+        height: 100%;
+        align-items: center;
+    }
+    .herocontainer{
+        padding: 0 ;
+    }
+    .rightcard{
+        flex-direction: row;
+        padding: 17px;
+    }
+    .container{
+        padding: 0 16px;
+    }
+  
+    .billcont{
+        padding: 0;
+    }
+  
+  
+   
+    .cardmenu{
+        width: 100%;
+        position: relative;
+        /* overflow: auto; */
+        height: 100%;
+         border-radius: 0px;    
+         top: auto;
+         left: auto;
+         bottom: auto;
+         right: auto;
+        }
+        .leftcard{
+            
+            border-radius: 0 0 24px 24px;
+            overflow: hidden;
+    }
+    .hero-slider{
+        height: auto;
+        display: flex;
+        flex-direction:column-reverse;
+         border-radius: 24px;
+    }
+    .slide{
+        height: 330px;
+        background-size: cover;
+    }
+  
+    .cardmenu .row > div{
+        /* padding: 0; */
+    }
+    .herohead{
+        padding: 0 16px;
+    }
+    .billcont{
+        padding: 0 16px;
+
+    }
+    .custom-container{
+        padding: 0 40px;
+    }
+    .row{
+        gap: 20px 0;
+    }
+    .heading{
+        margin-bottom: 0px;
+    }
+    .review-section .custom-container > .row,
+    .watchsection .custom-container > .row{
+        flex-direction: column-reverse;
+    }
+    .blogcontent{
+        padding: 0;
+    }
+    .reviewsvg{
+        height: 65px;
+    }
+    .input input{
+        padding-right: 90px;
+    }
+    .location-card:last-child {
+    grid-column: span 12;
+}
+.testimonial-card{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-icon{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+}
+.user-info{
+    order: -1;
+}
+.review1{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+text-align: center;
+margin-top: 14px;
+}
+.swiper-pagination{
+    left: 0 !important;
+    justify-content: center;
+}
+.logo-box{
+    width: 100%;
+}
+.logo-box img{
+    max-width: 100%;
+}
+.homevideo img{
+    height: 100%;
+    object-fit: cover;
+}
+.homevideo{
+    height: 479px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.rifhtsocial{
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.footer{
+    padding: 0;
+    border-radius: 0;
+}
+.footer .curve{
+    border-radius: 0;
+    padding: 40px;
+
+}
+.footerlist h3{
+    text-align: center;
+}
+.footerlist ul li{
+    text-align: center;
+}
+.copyright{
+    flex-direction: column;
+}
+.copyright ul{
+    flex-direction: column;
+    align-items: center;
+}
+.sociallisk ul{
+    padding: 0;
+    justify-content: center;
+}
+.footer-container .row{
+    gap: 58px 0;
+}
+.line{
+    padding: 17px;
+    margin-bottom: 17px;
+}
+.review-section .row{
+    gap: 40px 0;
+}
+.avertising .headingbox{
+    padding: 0 16px;
+}
+.img2mob{
+    display: none;
+}
+/* .box2{
+    display: none;
+} */
+/* .socalimg .box1 figure:nth-child(2){
+width: 90%;
+margin: auto;
+margin-right: 0;
+margin-bottom: 50px;
+}
+.socalimg .box1 figure:first-child{
+    margin-left: 0;
+}
+.socalimg .box1 figure:nth-child(3){
+    width: 90%;
+    margin-left: 0;
+}
+.socalimg{
+    width: 100%;
+    gap: 0;
+    display: block;
+} */
+.footer .curve{
+    padding: 40px 16px  ;
+}
+}
+@media (max-width:540px) {
+    .mobhide{
+        display: none;
+    }
+    .hamberger{
+              display: flex;
+        justify-content: end;
+        align-content: center;
+        height: 100%;
+        align-items: center;
+    }
+    .herocontainer{
+        padding: 0 ;
+    }
+    .rightcard{
+        flex-direction: row;
+        padding: 37px;
+    }
+    .container{
+        padding: 0 16px;
+    }
+    .herohead h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .billcont{
+        padding: 0;
+    }
+    .billcont h3{
+        text-align: center;
+    }
+    .billcont p{
+        text-align: center;
+    }
+    .billcont a{
+        margin: auto;
+        margin-bottom: 72px;
+    }
+    .cardmenu{
+        width: 100%;
+        position: relative;
+        /* overflow: auto; */
+        height: 100%;
+         border-radius: 0px;    
+         top: auto;
+         left: auto;
+         bottom: auto;
+         right: auto;
+        }
+        .leftcard{
+            
+            border-radius: 0 0 24px 24px;
+            overflow: hidden;
+    }
+    .hero-slider{
+        height: auto;
+        display: flex;
+        flex-direction:column-reverse;
+         border-radius: 24px;
+    }
+    .slide{
+        height: 330px;
+    }
+  
+    .cardmenu .row > div{
+        /* padding: 0; */
+    }
+    .herohead{
+        padding: 0 16px;
+    }
+    .billcont{
+        padding: 0 16px;
+
+    }
+    .custom-container{
+        padding: 0 20px;
+    }
+    .row{
+        gap: 20px 0;
+    }
+    .heading{
+        margin-bottom: 0px;
+    }
+    .review-section .custom-container > .row,
+    .watchsection .custom-container > .row{
+        flex-direction: column-reverse;
+    }
+    .blogcontent{
+        padding: 0;
+    }
+    .reviewsvg{
+        height: 65px;
+    }
+    .input input{
+        padding-right: 90px;
+    }
+    .location-card:last-child {
+    grid-column: span 12;
+}
+.img2mob{
+    display: block;
+}
+.testimonial-card{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-icon{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+}
+.user-info{
+    order: -1;
+}
+.review1{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+text-align: center;
+margin-top: 14px;
+}
+.swiper-pagination{
+    left: 0 !important;
+    justify-content: center;
+}
+.logo-box{
+    width: 100%;
+}
+.logo-box img{
+    max-width: 100%;
+}
+.homevideo img{
+    height: 100%;
+    object-fit: cover;
+}
+.homevideo{
+    height: 479px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.rifhtsocial{
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.footer{
+    padding: 0;
+    border-radius: 0;
+}
+.footer .curve{
+    border-radius: 0;
+    padding: 40px;
+
+}
+.footerlist h3{
+    text-align: center;
+}
+.footerlist ul li{
+    text-align: center;
+}
+.copyright{
+    flex-direction: column;
+}
+.copyright ul{
+    flex-direction: column;
+    align-items: center;
+}
+.sociallisk ul{
+    padding: 0;
+    justify-content: center;
+}
+.footer-container .row{
+    gap: 58px 0;
+}
+.line{
+    padding: 17px;
+    margin-bottom: 17px;
+}
+.review-section .row{
+    gap: 40px 0;
+}
+.avertising .headingbox{
+    padding: 0 16px;
+}
+.box2{
+    display: none;
+}
+.socalimg .box1 figure:nth-child(2){
+width: 90%;
+margin: auto;
+margin-right: 0;
+margin-bottom: 50px;
+}
+.socalimg .box1 figure:first-child{
+    margin-left: 0;
+}
+.socalimg .box1 figure:nth-child(3){
+    width: 90%;
+    margin-left: 0;
+}
+.socalimg{
+    width: 100%;
+    gap: 0;
+    display: block;
+}
+.footer .curve{
+    padding: 40px 16px  ;
 }
 }

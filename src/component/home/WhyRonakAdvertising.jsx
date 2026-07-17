@@ -6,7 +6,7 @@ import billboard2 from "./../../assets/imgs/billboard/billboard2.png"
 import billboard3 from "./../../assets/imgs/billboard/billboard3.png"
 const WhyRonakAdvertising = () => {
   return (
-    <div className='p-70'>
+    <div className='p-70 avertising'>
         <Heading
         title="Supercharge Your Business with </br> Billboards"
         subtitle="Why Ronak Advertising"

@@ -35,11 +35,14 @@ const Social = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 ">
                         <div className='socalimg'>
                             <div className="box1">
                                 <figure data-gsap>
                                     <img src={img1} alt="" />
+                                </figure>
+                                  <figure className='img2mob' data-gsap>
+                                    <img src={img3} alt="" />
                                 </figure>
                                 <figure data-gsap>
                                     <img src={img2} alt="" />

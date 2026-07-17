@@ -21,7 +21,7 @@ export default function useGsapAos() {
         duration: 1,
         scrollTrigger: {
           trigger: el,
-          start: "top 80%",
+          start: "top 90%",
           toggleActions: "play none none none",
         },
         });

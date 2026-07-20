@@ -81,7 +81,7 @@ const LocationListing = () => {
         {/* Cards */}
         <div className="row">
           {filteredLocations.map((item) => (
-            <div className="col-lg-6 mb-4" key={item.id}>
+            <div className="col-lg-6" key={item.id}>
               <div className="card2">
                 <div className="location-card1">
                   <div className="location-image">

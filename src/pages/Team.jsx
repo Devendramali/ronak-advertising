@@ -3,6 +3,9 @@ import team from "../assets/imgs/breadcrumb/team.jpg"
 import Breadcrumb from '../component/reuse/BreadCrumb'
 import LeadershipTeam from '../component/team/LeadershipTeam'
 import CoreTeam from '../component/team/CoreTeam'
+import TeamCulture from '../component/about/TeamCulture'
+import ExpertiseAchievements from '../component/team/ExpertiseAchievements'
+import AboutCTA from '../component/about/AboutCTA'
 const Team = () => {
   return (
     <>
@@ -16,7 +19,9 @@ const Team = () => {
 />
 <LeadershipTeam/>
 <CoreTeam/>
-
+<TeamCulture/>
+<ExpertiseAchievements/>
+<AboutCTA/>
     </>
   )
 }

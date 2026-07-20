@@ -4,6 +4,7 @@ import React from "react";
 import img1 from "../../assets/imgs/team/core1.png";
 import img2 from "../../assets/imgs/team/core2.png";
 import img3 from "../../assets/imgs/team/core3.png";
+import Heading from "../reuse/Heading";
 
 const team = [
   {
@@ -49,7 +50,11 @@ const CoreTeam = () => {
     <section className="core-team">
       <div className="custom-container">
 
-        <h2 className="section-title">CORE TEAM</h2>
+           <Heading
+                    title="Core Team"
+                    // subtitle="Latest Blog"
+                    titleclass="text-black text-center"
+                    />
 
         <div className="core-grid">
           {team.map((item) => (
@@ -57,9 +62,9 @@ const CoreTeam = () => {
               <img src={item.image} alt={item.name} />
 
               <div className="core-info">
-                <div className="triangle"></div>
 
-                <div className="content">
+                <div className="core-content">
+                <div className="triangle"></div>
                   <h3>{item.name}</h3>
                   <p>{item.role}</p>
                 </div>

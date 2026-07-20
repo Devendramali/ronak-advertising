@@ -11,6 +11,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import Home from './pages/Home'
 import About from './pages/About'
+import Location from './pages/Location'
+import Team from './pages/Team'
 
 // import loader from "./assets/loader.gif"
 
@@ -47,7 +49,8 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route  path="/about" element={<About/>} />
-            {/* <Route path='/*' element={<PortfolioPage />} /> */}
+            <Route  path="/location" element={<Location/>} />
+            <Route path='/team' element={<Team />} />
           
 
           </Route>

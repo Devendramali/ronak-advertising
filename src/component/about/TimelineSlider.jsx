@@ -43,7 +43,10 @@ export default function TimelineSlider() {
   const [active, setActive] = useState(2);
 
   return (
-    <section className="timeline">
+    <div className="container">
+
+   
+    <div className="timeline">
       <h2>JOURNEY TIMELINE</h2>
 
       <div className="timeline-years">
@@ -87,10 +90,11 @@ export default function TimelineSlider() {
             spaceBetween: 25,
           },
           1200: {
-            slidesPerView: 3,
+            slidesPerView: 1.8,
             spaceBetween: 30,
           },
         }}
+        className="timelineslidermail"
       >
         {slides.map((item, index) => (
           <SwiperSlide key={index}>
@@ -101,6 +105,7 @@ export default function TimelineSlider() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </section>
+    </div>
+     </div>
   );
 }

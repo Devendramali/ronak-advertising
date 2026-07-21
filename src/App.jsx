@@ -13,6 +13,10 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Location from './pages/Location'
 import Team from './pages/Team'
+import LocationDetails from './pages/LocationDetails'
+import BlogList from './pages/BlogList'
+import BlogDetails from './pages/BlogDetails'
+import Contact from './pages/Contact'
 
 // import loader from "./assets/loader.gif"
 
@@ -51,6 +55,10 @@ function App() {
             <Route  path="/about" element={<About/>} />
             <Route  path="/location" element={<Location/>} />
             <Route path='/team' element={<Team />} />
+            <Route path='/location-details' element={<LocationDetails />} />
+            <Route path='/blog' element={<BlogList />} />
+            <Route path='/blog-details' element={<BlogDetails />} />
+            <Route path='/contact' element={<Contact />} />
           
 
           </Route>

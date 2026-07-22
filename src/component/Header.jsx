@@ -17,18 +17,18 @@ const Header = () => {
 
             <div className="col-lg-7 mobhide">
               <ul className="menulist">
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">About us</a></li>
-                <li><a href="#!">Locations</a></li>
-                <li><a href="#!">Blog</a></li>
-                <li><a href="#!">Media</a></li>
-                <li><a href="#!">Case Studies</a></li>
-                <li><a href="#!">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About us</a></li>
+                <li><a href="/location">Locations</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/media">Media</a></li>
+                <li><a href="/case-study">Case Studies</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </div>
 
             <div className="col-lg-2 mobhide">
-              <a href="#!" className="btn">
+              <a href="/contact" className="btn">
                 Contact Us
                 <svg
                   width="13"
@@ -95,16 +95,16 @@ const Header = () => {
           
 
           <ul>
-            <li><a href="#!" onClick={() => setMenuOpen(false)}>Home</a></li>
-            <li><a href="#!" onClick={() => setMenuOpen(false)}>About us</a></li>
-            <li><a href="#!" onClick={() => setMenuOpen(false)}>Locations</a></li>
-            <li><a href="#!" onClick={() => setMenuOpen(false)}>Blog</a></li>
-            <li><a href="#!" onClick={() => setMenuOpen(false)}>Media</a></li>
-            <li><a href="#!" onClick={() => setMenuOpen(false)}>Case Studies</a></li>
-            <li><a href="#!" onClick={() => setMenuOpen(false)}>Contact</a></li>
+            <li><a href="/" onClick={() => setMenuOpen(false)}>Home</a></li>
+            <li><a href="/about" onClick={() => setMenuOpen(false)}>About us</a></li>
+            <li><a href="/location" onClick={() => setMenuOpen(false)}>Locations</a></li>
+            <li><a href="/blog" onClick={() => setMenuOpen(false)}>Blog</a></li>
+            <li><a href="/media" onClick={() => setMenuOpen(false)}>Media</a></li>
+            <li><a href="/case-study" onClick={() => setMenuOpen(false)}>Case Studies</a></li>
+            <li><a href="/contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
           </ul>
 
-        <a href="#!" className="btn">
+        <a href="/contact" className="btn">
                 Contact Us
                 <svg
                   width="13"

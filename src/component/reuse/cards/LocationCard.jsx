@@ -20,7 +20,7 @@ const LocationCard = ({item}) => {
                     </p>
 
                     <div className="location-btns">
-                      <button className="btn2 bg-white">
+                      <a href="#!"  className="btn2 bg-white">
                         View Details
                         <svg
                           width="13"
@@ -34,7 +34,7 @@ const LocationCard = ({item}) => {
                             fill="black"
                           />
                         </svg>
-                      </button>
+                      </a>
 
                       <a href="#!" className="btn m-0">
                         Enquire Now

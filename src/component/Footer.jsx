@@ -28,13 +28,13 @@ const Footer = () => {
             <div className="footerlist">
               <h3>Quick Link</h3>
               <ul>
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">About us</a></li>
-                <li><a href="#!">Locations</a></li>
-                <li><a href="#!">Blog</a></li>
-                <li><a href="#!">Media</a></li>
-                <li><a href="#!">Case Studies</a></li>
-                <li><a href="#!">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About us</a></li>
+                <li><a href="/location">Locations</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/media">Media</a></li>
+                <li><a href="/case-study">Case Studies</a></li>
+                <li><a href="/contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Footer = () => {
         <ul>
           <li ><a href="#!">Trams & Condition</a></li>
           <li><a href="#!">Privacy Policy</a></li>
-          <li ><a href="#!">Contact Us</a></li>
+          <li ><a href="/contact">Contact Us</a></li>
         </ul>
         </div>
       </div>

@@ -112,6 +112,9 @@
     .hidedesk{
   display: block;
 }
+.bread-list{
+       padding: 140px 0 140px 170px;
+}
   
   
    
@@ -281,6 +284,17 @@ margin-top: 14px;
  .mobhide{
         display: none;
     }
+    .col-lg-2.mobhide {
+    display: none;
+}
+.why-container,
+.achievements-container{
+    padding: 0 16px;
+}
+.map{
+    height: 400px;
+}
+
     .hamberger{
               display: flex;
         justify-content: end;
@@ -480,7 +494,119 @@ margin-bottom: 50px;
     padding: 40px 16px  ;
 }
 }
+@media (max-width:786px) {
+       .bread-list {
+        padding: 140px 0 140px 26px;
+    }
+    .aboutcta .abctatext {
+    padding: 238px 26px;
+}
+.vission div:nth-child(3){
+    order: 2;
+}
+}
 @media (max-width:540px) {
+    .aboutcta h2{
+        font-size: 68px;
+    }
+    .ab2{
+    }
+    .aboutcover figure {
+        height: 360px;
+        width: 80% !important;
+
+    }
+    .timeline {
+    padding: 70px 16px;
+    }
+    .timeline-card img{
+        height: 336px;
+    }
+    .why-image {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+}
+.card-1 {
+    grid-column: 1 / span 12;
+    grid-row: 2;
+}
+.card-2 {
+    grid-column: 1 / span 12;
+    grid-row: 3;
+}
+.card-3 {
+    grid-column: 1 / span 12;
+    grid-row: 4;
+}
+.card-4 {
+    grid-column: 1 / span 12;
+    grid-row: 5;
+}
+.card-5 {
+    grid-column: 1 / span 12;
+    grid-row: 6;
+}
+.shop-card{
+    flex-direction: column;
+}
+.shop-image img{
+    width: 100%;
+}
+.location-btns a{
+    width: 100%;
+}
+.white-container .custom-container{
+    padding: 48px 16px;
+}
+.contactbox,
+.detail-box{
+    padding: 40px 16px;
+}
+.inquire-box form {
+    padding: 46px 16px;
+}
+.location-btns{
+    flex-direction: column;
+}
+.imgboxin{
+    position: relative;
+    top: 0;
+    transform: translateY(0%);
+}
+.imgboxin img{
+    width: 100%;
+}
+.inquiry-container{
+    display: flex;
+    flex-direction: column;
+}
+.inquire-box{
+    order: -1;
+}
+.card2{
+    padding: 0;
+}
+.blog-container1{
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+.social-main{
+    flex-direction: column;
+}
+.blog-container1 figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-container1 figure{
+    height: 300px;
+}
+.shop-image{
+    width: 100%;
+}
+        .bread-list {
+        padding: 140px 0 140px 26px;
+    }
     .mobhide{
         display: none;
     }

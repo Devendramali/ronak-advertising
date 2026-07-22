@@ -17,6 +17,9 @@ import LocationDetails from './pages/LocationDetails'
 import BlogList from './pages/BlogList'
 import BlogDetails from './pages/BlogDetails'
 import Contact from './pages/Contact'
+import Media from './pages/Media'
+import CaseStudy from './pages/CaseStudy'
+import CaseStudydetails from './pages/CaseStudydetails'
 
 // import loader from "./assets/loader.gif"
 
@@ -59,6 +62,9 @@ function App() {
             <Route path='/blog' element={<BlogList />} />
             <Route path='/blog-details' element={<BlogDetails />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/media' element={<Media />} />
+            <Route path='/case-study' element={<CaseStudy />} />
+            <Route path='/case-study-details' element={<CaseStudydetails />} />
           
 
           </Route>

@@ -11,7 +11,7 @@ const Achievements = () => {
                     titleclass="text-black text-center"
                 />
                 <div className="row">
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 col-md-6" data-gsap>
                         <div className="achievements-box">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -23,7 +23,7 @@ const Achievements = () => {
 
                         </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 col-md-6" data-gsap>
                         <div className="achievements-box">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -35,7 +35,7 @@ const Achievements = () => {
 
                         </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 col-md-6" data-gsap>
                         <div className="achievements-box">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -51,7 +51,7 @@ const Achievements = () => {
 
                         </div>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 col-md-6" data-gsap>
                         <div className="achievements-box">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

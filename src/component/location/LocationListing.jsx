@@ -73,6 +73,7 @@ const LocationListing = () => {
               key={filter}
               className={activeFilter === filter ? "active" : ""}
               onClick={() => setActiveFilter(filter)}
+              data-gsap
             >
               {filter}
             </button>
@@ -82,7 +83,7 @@ const LocationListing = () => {
         {/* Cards */}
         <div className="row">
           {filteredLocations.map((item) => (
-            <div className="col-lg-6" key={item.id}>
+            <div className="col-lg-6" key={item.id} data-gsap>
              <LocationCard item={item}/>
             </div>
           ))}

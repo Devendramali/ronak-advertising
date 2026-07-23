@@ -42,8 +42,8 @@ const Details = () => {
         <>
         <div className='p-70'>
             <div className="custom-container blog-container1">
-                <h1>Billboard advertising is a powerful marketing tool that helps businesses </h1>
-                <div className='social-main'>
+                <h1 data-gsap>Billboard advertising is a powerful marketing tool that helps businesses </h1>
+                <div className='social-main' data-gsap>
                     <ul className='blogd'>
                         <li><svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.125 3.11719C7.125 2.46094 6.75 1.85156 6.1875 1.5C5.60156 1.17188 4.875 1.17188 4.3125 1.5C3.72656 1.85156 3.375 2.46094 3.375 3.11719C3.375 3.79688 3.72656 4.40625 4.3125 4.75781C4.875 5.08594 5.60156 5.08594 6.1875 4.75781C6.75 4.40625 7.125 3.79688 7.125 3.11719ZM2.25 3.11719C2.25 2.0625 2.8125 1.07812 3.75 0.539062C4.66406 0 5.8125 0 6.75 0.539062C7.66406 1.07812 8.25 2.0625 8.25 3.11719C8.25 4.19531 7.66406 5.17969 6.75 5.71875C5.8125 6.25781 4.66406 6.25781 3.75 5.71875C2.8125 5.17969 2.25 4.19531 2.25 3.11719ZM1.14844 10.9922H9.32812C9.11719 9.51562 7.85156 8.36719 6.30469 8.36719H4.17188C2.625 8.36719 1.35938 9.51562 1.14844 10.9922ZM0 11.4375C0 9.11719 1.85156 7.24219 4.17188 7.24219H6.30469C8.625 7.24219 10.5 9.11719 10.5 11.4375C10.5 11.8125 10.1719 12.1172 9.79688 12.1172H0.679688C0.304688 12.1172 0 11.8125 0 11.4375Z" fill="#1A1A1A" />
@@ -82,10 +82,10 @@ const Details = () => {
                         </ul>
                     </div>
                 </div>
-                <figure>
+                <figure data-gsap>
                     <img src={blogdetails} alt="" />
                 </figure>
-                <div className="blogdata">
+                <div className="blogdata" data-gsap>
                     
                 <p>Web designing in a powerful way of just n professions, however, in  passion for a our Company. We hatendency to believe the idea that sm Technology is a broad category encompassing all aspects Web designing in a powerful way of just n professio, howein  passion for a our Company. We hatendency to believe the idea that sm Technology is a broad </p>
                 <p>Web designing in a powerful way of just n professions, however, in  passion for a our Company. We hatendency to believe the idea that sm Technology is a broad category encompassing all aspects Web designing in a powerful =</p>

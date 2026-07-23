@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogCard = ({data}) => {
   return (
-    <a href="#!" className='blogcard'>
+    <a href="/blog-details" className='blogcard'>
         <div className="blogwrap">
         <figure>
             <img src={data.image} alt="" />

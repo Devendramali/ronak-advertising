@@ -7,10 +7,10 @@ const CaseStudy = () => {
   return (
     <>
          <Breadcrumb
-  title="Media"
+  title="Case Study"
   items={[
     { label: "Home", link: "/" },
-    { label: "Media" },
+    { label: "Case Study" },
   ]}
   bgimg={media}
 />

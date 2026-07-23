@@ -3,13 +3,13 @@ import inquiry from "../../assets/imgs/location/inquiry.png"
 
 const InquiryForm = () => {
   return (
-    <div className='p-70'>
+    <div className='p-70 inform'>
       <div className="custom-container ">
         <div className="inquiry-container position-relative">
-          <div className="imgboxin">
+          <div className="imgboxin" data-gsap>
             <img src={inquiry} alt="" />
           </div>
-          <div className="inquire-box">
+          <div className="inquire-box" data-gsap>
             <h2>Inquiry Form</h2>
             <form action="">
               <div className="row">

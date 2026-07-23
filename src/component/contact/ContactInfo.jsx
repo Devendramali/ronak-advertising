@@ -13,8 +13,8 @@ const ContactInfo = () => {
 
                             <div className="contactbox mt-4">
                                 <div className="row">
-                                    <div className="col-lg-3">
-                                        <div className="boxcot">
+                                    <div className="col-lg-3" data-gsap>
+                                        <div className="boxcot" >
                                             <div className="conicon">
                                                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g opacity="0.8">
@@ -35,7 +35,7 @@ const ContactInfo = () => {
                                         </div>
 
                                     </div>
-                                       <div className="col-lg-4">
+                                       <div className="col-lg-4" data-gsap>
                                         <div className="boxcot">
                                             <div className="conicon">
                                             <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +58,7 @@ const ContactInfo = () => {
                                         </div>
 
                                     </div>
-                                      <div className="col-lg-5">
+                                      <div className="col-lg-5" data-gsap>
                                         <div className="boxcot">
                                             <div className="conicon">
                                                 <svg width="19" height="26" viewBox="0 0 19 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,7 +89,7 @@ const ContactInfo = () => {
                             />
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <div className="conpage">
+                                    <div className="conpage" data-gsap>
                                         <div className="input">
                                             <input type="text" placeholder='Your Name' />
                                         </div>
@@ -106,7 +106,7 @@ const ContactInfo = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <div className="map">
+                                    <div className="map" data-gsap>
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109542.17506087155!2d73.85579519999999!3d18.5401344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eaaa1905f32b%3A0x770d45dab21b0047!2sTaljai%20hill!5e1!3m2!1sen!2sin!4v1784639982604!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                                     </div>
                                 </div>

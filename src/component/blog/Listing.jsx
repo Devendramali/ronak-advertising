@@ -75,7 +75,7 @@ const Listing = () => {
                         })}
                 </div>
 
-                <div className="pagination">
+                <div className="pagination" data-gsap>
                     <ul>
                         <li><a href="#!">01</a></li>
                         <li><a href="#!">02</a></li>

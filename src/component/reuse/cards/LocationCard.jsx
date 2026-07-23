@@ -2,7 +2,7 @@ import React from 'react'
 
 const LocationCard = ({item}) => {
   return (
-     <div className="card2">
+     <a href='/location-details' className="card2">
                 <div className="location-card1">
                   <div className="location-image">
                     <img src={item.image} alt={item.title} />
@@ -54,7 +54,7 @@ const LocationCard = ({item}) => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
   )
 }
 

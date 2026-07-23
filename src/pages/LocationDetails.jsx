@@ -7,7 +7,7 @@ import RelatedLocations from '../component/location/RelatedLocations'
 
 const LocationDetails = () => {
   return (
-    <>
+    <div className='loca-details-page'>
              <Breadcrumb
   title="Vashi Toll Naka Fcg Vashi (Middle)"
   items={[
@@ -20,7 +20,7 @@ const LocationDetails = () => {
 <LocationData/>
 <InquiryForm/>
 <RelatedLocations/>
-    </>
+    </div>
   )
 }
 

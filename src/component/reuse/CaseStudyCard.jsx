@@ -2,7 +2,7 @@ import React from 'react'
 
 const CaseStudyCard = ({data}) => {
   return (
-    <a href="#!" className='blogcard'>
+    <a href="/case-study-details" className='blogcard'>
         <div className="blogwrap">
         <figure>
             <img src={data.image} alt="" />

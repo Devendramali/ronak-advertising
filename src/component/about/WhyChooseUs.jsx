@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
 
                     <div className="whichose">
                         <div className="row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-6 " data-gsap>
                                 <div className="why-box">
                                     <img src={why1} className='whyimg' alt="" />
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
                                     <h3>Creative Campaigns Tailored to Your Brand's Voice</h3>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 col-md-6 " data-gsap>
                                 <div className="why-box">
                                     <img src={why2} className='whyimg' alt="" />
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
                                     <h3>Expert Team with Years of Industry Experience</h3>
                                 </div>
                             </div>
-                            <div className="col-lg-5">
+                            <div className="col-lg-5 col-md-6 " data-gsap>
                                 <div className="why-box noimg">
                                     {/* <img src={why2} className='whyimg' alt="" /> */}
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
                                     <h3>Innovative Strategies That Drive Real Results</h3>
                                 </div>
                             </div>
-                             <div className="col-lg-3">
+                             <div className="col-lg-3 col-md-6 " data-gsap>
                                 <div className="why-box noimg">
                                     {/* <img src={why1} className='whyimg' alt="" /> */}
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
                                     <h3>Comprehensive Services Covering All Advertising Needs</h3>
                                 </div>
                             </div>
-                              <div className="col-lg-3">
+                              <div className="col-lg-3 col-md-6 " data-gsap>
                                 <div className="why-box ">
                                     <img src={why3} className='whyimg' alt="" />
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
                                     <h3>Strong Client Relationships Built on Trust and Transparency</h3>
                                 </div>
                             </div>
-                               <div className="col-lg-6">
+                               <div className="col-lg-6 col-md-6 " data-gsap>
                                 <div className="why-box ">
                                     <img src={why4} className='whyimg' alt="" />
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

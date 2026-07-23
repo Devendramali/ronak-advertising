@@ -16,10 +16,10 @@ const LocationData = () => {
                             />
         </div>
         <div className="container detail-cideo">
-            <figure >
+            <figure data-gsap>
                 <img src={video} alt="" />
             </figure>
-            <h4>“Experience the real visibility and impact of this advertising location.”</h4>
+            <h4 data-gsap>“Experience the real visibility and impact of this advertising location.”</h4>
         </div>
         <div className="p-70">
             <div className="custom-container">
@@ -29,13 +29,13 @@ const LocationData = () => {
                     titleclass="text-black"
                 />
                 <div className="mediaimg">
-                    <figure>
+                    <figure data-gsap>
                         <img src={gallery1} alt="" />
                     </figure>
-                    <figure>
+                    <figure data-gsap>
                         <img src={gallery2} alt="" />
                     </figure>
-                    <figure>
+                    <figure data-gsap>
                         <img src={gallery3} alt="" />
                     </figure>
                 </div>
@@ -48,31 +48,31 @@ const LocationData = () => {
                                 titleclass="text-black"
                             />
                         <div className="row">
-                            <div className="col-lg-2">
+                            <div className="col-lg-2" data-gsap>
                                 <div className="redbox">
                                     <p>Media</p>
                                     <h3>Hoarding</h3>
                                 </div>
                             </div>
-                            <div className="col-lg-2">
+                            <div className="col-lg-2" data-gsap>
                                 <div className="boxw">
                                     <p>Type</p>
                                     <h3>LED</h3>
                                 </div>
                             </div>
-                            <div className="col-lg-2">
+                            <div className="col-lg-2" data-gsap>
                                 <div className="boxw">
                                     <p>Site Code</p>
                                     <h3>RV-VT-002</h3>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-3" data-gsap>
                                 <div className="boxw">
                                     <p>Latitude</p>
                                     <h3>19.064157″N</h3>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-3" data-gsap>
                                 <div className="boxw">
                                     <p>Longitude</p>
                                     <h3>72.979840″E</h3>

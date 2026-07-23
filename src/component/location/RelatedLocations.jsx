@@ -36,7 +36,7 @@ const RelatedLocations = () => {
                 <div className="row">
                     {
                         locations.map((item) => (
-                            <div className="col-lg-6" key={item.id}>
+                            <div className="col-lg-6" data-gsap key={item.id}>
                                 <LocationCard item={item} />
                             </div>
                         ))}

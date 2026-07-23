@@ -46,7 +46,7 @@ export default function TimelineSlider() {
     <div className="container">
 
    
-    <div className="timeline">
+    <div className="timeline" data-gsap>
       <h2>JOURNEY TIMELINE</h2>
 
       <div className="timeline-years">
@@ -78,11 +78,11 @@ export default function TimelineSlider() {
         onSlideChange={(swiper) => setActive(swiper.realIndex)}
         breakpoints={{
           0: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 15,
           },
           576: {
-            slidesPerView: 1.5,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           768: {

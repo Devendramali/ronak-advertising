@@ -5,7 +5,7 @@ import Casedata from '../component/case-study/Casedata'
 
 const CaseStudydetails = () => {
   return (
-    <>
+    <div className='casedet1'>
          <Breadcrumb
   title="Case Study Detail"
   items={[
@@ -19,7 +19,7 @@ const CaseStudydetails = () => {
 
 
     
-    </>
+    </div>
   )
 }
 

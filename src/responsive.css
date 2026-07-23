@@ -195,6 +195,42 @@
 .user-info{
     order: -1;
 }
+   .why-image {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+}
+.card-1 {
+    grid-column: 1 / span 6;
+    grid-row: 2;
+}
+.card-2 {
+    grid-column: 7 / span 6;
+    grid-row: 2;
+}
+.card-3 {
+    grid-column: 1 / span 6;
+    grid-row: 4;
+}
+.card-4 {
+    grid-column: 7 / span 6;
+    grid-row: 4;
+}
+.card-5 {
+    grid-column: 1 / span 12;
+    grid-row: 6;
+}
+.shop-card{
+    flex-direction: column;
+}
+.shop-image img{
+    width: 100%;
+}
+.shop-image{
+    width: 100%;
+}
+.why-grid{
+    margin-top: 40px;
+}
 .review1{
     font-size: 16px;
 font-style: normal;
@@ -534,6 +570,27 @@ margin-bottom: 50px;
     grid-column: 1 / span 12;
     grid-row: 3;
 }
+.casedet1 .bread-list ul li:nth-last-child(2),
+.casedet1 .bread-list ul li:last-child,
+.loca-details-page .bread-list ul li:nth-last-child(2),
+.loca-details-page .bread-list ul li:last-child{
+    display: none;
+}
+.detail-box .headingbox{
+margin-bottom: 30px; 
+}
+.inform{
+    padding-top: 0;
+}
+.inquire-box h2 {
+    padding: 17px 30px;
+}
+.blogcontent1 {
+    padding: 47px 20px 30px;
+}
+.casedata {
+    padding: 20px 20px 0px;
+}
 .card-3 {
     grid-column: 1 / span 12;
     grid-row: 4;
@@ -605,7 +662,7 @@ margin-bottom: 50px;
     width: 100%;
 }
         .bread-list {
-        padding: 140px 0 140px 26px;
+        padding: 140px 26px 140px 26px;
     }
     .mobhide{
         display: none;

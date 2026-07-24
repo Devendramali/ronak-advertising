@@ -20,7 +20,7 @@ import Contact from './pages/Contact'
 import Media from './pages/Media'
 import CaseStudy from './pages/CaseStudy'
 import CaseStudydetails from './pages/CaseStudydetails'
-import Error from './pages/error'
+import Error from './pages/Error'
 import ThankYou from './pages/ThankYou'
 
 // import loader from "./assets/loader.gif"

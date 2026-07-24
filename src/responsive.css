@@ -807,6 +807,7 @@ margin-top: 14px;
     border-radius: 20px;
     overflow: hidden;
 }
+
 .rifhtsocial{
     gap: 100px;
     margin-bottom: 100px;
@@ -874,4 +875,10 @@ margin-bottom: 50px;
 .footer .curve{
     padding: 40px 16px  ;
 }
+.errorcontainer .custom-container .error{
+    padding: 0 16px;
+}
+.errorcontainer .custom-container {
+        padding: 0 0px;
+    }
 }

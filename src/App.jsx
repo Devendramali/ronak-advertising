@@ -20,6 +20,8 @@ import Contact from './pages/Contact'
 import Media from './pages/Media'
 import CaseStudy from './pages/CaseStudy'
 import CaseStudydetails from './pages/CaseStudydetails'
+import Error from './pages/error'
+import ThankYou from './pages/ThankYou'
 
 // import loader from "./assets/loader.gif"
 
@@ -65,6 +67,8 @@ function App() {
             <Route path='/media' element={<Media />} />
             <Route path='/case-study' element={<CaseStudy />} />
             <Route path='/case-study-details' element={<CaseStudydetails />} />
+            <Route path='/*' element={<Error />} />
+            <Route path='/thank-you' element={<ThankYou />} />
           
 
           </Route>

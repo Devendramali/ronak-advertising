@@ -3375,3 +3375,38 @@ text-transform: capitalize;
 .col-lg-2.mobhide{
   display: flex;
 }
+.error{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+.error a{
+  margin: auto;
+  width: 100%;
+}
+.error h2{
+  text-align: center;
+  color: var(--900, #1A1A1A);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Heading/H1 */
+font-family: var(--bebas-neue);
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 70px; /* 116.667% */
+letter-spacing: -1.06px;
+text-transform: capitalize;
+margin-bottom: 24px;
+}
+.errsvg{
+  display: flex;
+  justify-content: center;
+  max-width: 983px;
+  margin: auto;
+  margin-top: 64px;
+}
+.errsvg img{
+  width: 100%;
+}

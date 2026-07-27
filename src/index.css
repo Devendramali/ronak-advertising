@@ -206,6 +206,9 @@ a {
 .herohead {
   margin-bottom: 68px;
 }
+.core-grid .core-card img{
+  border-radius: 24px;
+}
 
 .herohead h1 {
   color: var(--White, #FFF);
@@ -2200,6 +2203,9 @@ a {
 
 /* Traffic Card */
 
+.traffic-card h3{
+  color: #fff;
+}
 .traffic-card {
   background: #fa0000;
   color: #fff;
@@ -2213,7 +2219,10 @@ a {
 }
 
 .traffic-icon {
-  font-size: 36px;
+  /* font-size: 36px; */
+}
+.headingbox {
+  margin-bottom: 20px;
 }
 
 .traffic-card p {

@@ -43,13 +43,25 @@ body {
   font-weight: 700;
   line-height: 22px;
   /* 122.222% */
+  transition: all .3 linear;
   text-transform: capitalize;
 }
-
+.btn1{
+  transition: all .3s linear;
+}
 .btn1:hover {
   color: var(--White, #1A1A1A);
+  background-color: #fff;
 }
-
+.mobhide .btn{
+  transition: all .3s linear;
+}
+.mobhide .btn:hover{
+  background-color: #000;
+}
+.whichose .row > div{
+    padding: 0 7px;
+}
 .btn1 {
   border-radius: 999px;
   border: 1px solid var(--200, #1A1A1A);
@@ -98,10 +110,19 @@ margin-right: 0; */
   line-height: 22px;
   /* 122.222% */
   text-transform: capitalize;
+  transition: all .3s linear;
 }
 
+.awrap .btn2 {
+  background-color: #fff;
+  border: none;
+}
+.btn2:hover svg path{
+  fill: #fff;
+}
 .btn2:hover {
-  color: var(--White, #1A1A1A);
+  color: var(--White, #fff);
+  background-color: #DD2B1C;
 }
 
 a {
@@ -1942,6 +1963,11 @@ a {
 .why-container {
   max-width: 1070px;
   margin: auto;
+  padding: 0 16px;
+}
+.whichose .row{
+  max-width: 100%;
+  margin: auto;
 }
 
 .whichose {
@@ -1996,15 +2022,18 @@ a {
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 60px;
   /* 116.667% */
   letter-spacing: -1.06px;
   text-transform: capitalize;
   margin-bottom: 0;
 }
 
+.achievements-container .row > div{
+  padding: 0 8px;
+}
 .achievements-container .row {
-  gap: 20px 0;
+  gap: 16px 0;
   margin-top: 44px;
 }
 
@@ -2308,18 +2337,20 @@ a {
 .card2 {
   border: 1px solid #dd2c1c00;
   transition: all .3s linear;
-  padding: 16px;
+  /* padding: 16px; */
   border-radius: 24px;
+  display: block;
+  padding: 16px;
 }
 
 .card2:hover {
-  /* padding: 16px; */
   border: 1px solid #DD2B1C;
   background: rgba(255, 255, 255, 0.25);
 }
 
 .location-card1 {
   background: transparent;
+  height: 100%;
 }
 
 .card2:hover .location-content {
@@ -3409,4 +3440,57 @@ margin-bottom: 24px;
 }
 .errsvg img{
   width: 100%;
+}
+.locacrad{
+  padding: 16px;
+  border-radius: 8px;
+  background: #FFF;
+}
+.locadeta{
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+   transform: translateY(-200%);
+     transition: all .3s linear;
+}
+.locacrad p{
+  color: var(--700, #2C2C2C);
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: var(--Ubuntu);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 12px */
+text-transform: capitalize;
+margin-bottom: 0;
+}
+.locacrad h4{
+  color: var(--700, #2C2C2C);
+font-feature-settings: 'liga' off, 'clig' off;
+font-family:var(--bebas-neue);
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 80%; /* 32px */
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+.location-card h3{
+  transition: all .3s linear;
+}
+.location-card:hover h3{
+  transform: translate(-50%,200%);
+}
+.location-card:hover .locadeta{
+     transform: translateY(0%);
+}
+.location-card1 .btn2:hover{
+  /* color: ; */
+  background-color: #DD2B1C !important;
+  border-color:transparent ;
+}
+.conrow1.row{
+  gap: 40px 0;
 }

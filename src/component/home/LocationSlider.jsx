@@ -49,12 +49,12 @@ export default function LocationSlider() {
         <Swiper
           modules={[Pagination, Autoplay]}
           slidesPerView={1}
-          // spaceBetween={30}
-          // pagination={{ clickable: true }}
-          // autoplay={{
-          //   delay: 4000,
-          //   disableOnInteraction: false,
-          // }}
+          spaceBetween={30}
+          pagination={{ clickable: true }}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
           loop={true}
           className="location-slider"
         >
@@ -62,7 +62,23 @@ export default function LocationSlider() {
             ? locations.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="location-grid">
+                    
                     <div className="location-card">
+                        <div className="locadeta">
+                          <div className="locacrad">
+                            <h4>70+</h4>
+                            <p>billboards</p>
+                          </div>
+                          <div className="locacrad">
+                            <h4>10+</h4>
+                            <p>Brands in Last Year</p>
+                          </div>
+                          <div className="locacrad">
+                            <h4>5Lakh+</h4>
+                            <p>Total eye balls in a day</p>
+                          </div>
+                        </div>
+                      
                       <img src={item.image} alt={item.title} />
                       <div className="overlay"></div>
                       <h3>{item.title}</h3>
@@ -75,6 +91,20 @@ export default function LocationSlider() {
                   <div className="location-grid">
                     {group.map((item, i) => (
                       <div className="location-card" key={i}>
+                        <div className="locadeta">
+                          <div className="locacrad">
+                            <h4>70+</h4>
+                            <p>billboards</p>
+                          </div>
+                          <div className="locacrad">
+                            <h4>10+</h4>
+                            <p>Brands in Last Year</p>
+                          </div>
+                          <div className="locacrad">
+                            <h4>5Lakh+</h4>
+                            <p>Total eye balls in a day</p>
+                          </div>
+                        </div>
                         <img src={item.image} alt={item.title} />
                         <div className="overlay"></div>
                         <h3>{item.title}</h3>

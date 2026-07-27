@@ -82,7 +82,7 @@ const Details = () => {
                         </ul>
                     </div>
                 </div>
-                <figure data-gsap>
+                <figure className='mt-0' data-gsap>
                     <img src={blogdetails} alt="" />
                 </figure>
                 <div className="blogdata" data-gsap>

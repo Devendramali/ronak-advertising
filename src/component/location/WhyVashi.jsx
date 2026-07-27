@@ -5,7 +5,7 @@ import Heading from "../reuse/Heading";
 
 const WhyVashi = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 wvsection">
     <div className="why-vashi">
       <div className="container">
          <Heading

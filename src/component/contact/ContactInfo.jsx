@@ -87,7 +87,7 @@ const ContactInfo = () => {
                                 // subtitle="Socials"
                                 titleclass="text-black"
                             />
-                            <div className="row">
+                            <div className="row conrow1">
                                 <div className="col-lg-6">
                                     <div className="conpage" data-gsap>
                                         <div className="input">

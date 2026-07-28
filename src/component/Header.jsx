@@ -19,7 +19,37 @@ const Header = () => {
               <ul className="menulist">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About us</a></li>
-                <li><a href="/location">Locations</a></li>
+               <li className="has-submenu">
+                <a href="/location">
+                  Locations
+                <svg className="ms-1" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.37891 4.25781L0.253906 1.13281C0 0.898438 0 0.488281 0.253906 0.253906C0.488281 0 0.898438 0 1.13281 0.253906L3.82812 2.92969L6.50391 0.253906C6.73828 0 7.14844 0 7.38281 0.253906C7.63672 0.488281 7.63672 0.898438 7.38281 1.13281L4.25781 4.25781C4.02344 4.51172 3.61328 4.51172 3.37891 4.25781Z" fill="#1A1A1A"/>
+              </svg>
+
+  </a>
+
+  <div className="mega-menu">
+    <div className="mega-grid">
+      <a href="#!">Vashi</a>
+      <a href="#!">Expressway</a>
+      <a href="#!">Sanpada</a>
+
+      <a href="#!">Turbhe</a>
+      <a href="#!">Nerul</a>
+      <a href="#!">Juinagar</a>
+
+      <a href="#!">Ghansoli</a>
+      <a href="#!">Rabale</a>
+      <a href="#!">Koparkhairane</a>
+
+      <a href="#!">Panvel</a>
+      <a href="#!">Airoli</a>
+
+      <a href="#!">Kharghar</a>
+      <a href="#!">CBD Belapur</a>
+    </div>
+  </div>
+</li>
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/media">Media</a></li>
                 <li><a href="/case-study">Case Studies</a></li>
@@ -97,7 +127,37 @@ const Header = () => {
           <ul>
             <li><a href="/" onClick={() => setMenuOpen(false)}>Home</a></li>
             <li><a href="/about" onClick={() => setMenuOpen(false)}>About us</a></li>
-            <li><a href="/location" onClick={() => setMenuOpen(false)}>Locations</a></li>
+                      <li className="has-submenu">
+                <a href="/location">
+                  Locations
+                <svg className="ms-1" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.37891 4.25781L0.253906 1.13281C0 0.898438 0 0.488281 0.253906 0.253906C0.488281 0 0.898438 0 1.13281 0.253906L3.82812 2.92969L6.50391 0.253906C6.73828 0 7.14844 0 7.38281 0.253906C7.63672 0.488281 7.63672 0.898438 7.38281 1.13281L4.25781 4.25781C4.02344 4.51172 3.61328 4.51172 3.37891 4.25781Z" fill="#1A1A1A"/>
+              </svg>
+
+  </a>
+
+  <div className="mega-menu">
+    <div className="mega-grid">
+      <a href="#!">Vashi</a>
+      <a href="#!">Expressway</a>
+      <a href="#!">Sanpada</a>
+
+      <a href="#!">Turbhe</a>
+      <a href="#!">Nerul</a>
+      <a href="#!">Juinagar</a>
+
+      <a href="#!">Ghansoli</a>
+      <a href="#!">Rabale</a>
+      <a href="#!">Koparkhairane</a>
+
+      <a href="#!">Panvel</a>
+      <a href="#!">Airoli</a>
+
+      <a href="##!">Kharghar</a>
+      <a href="#!">CBD Belapur</a>
+    </div>
+  </div>
+</li>
             <li><a href="/blog" onClick={() => setMenuOpen(false)}>Blog</a></li>
             <li><a href="/media" onClick={() => setMenuOpen(false)}>Media</a></li>
             <li><a href="/case-study" onClick={() => setMenuOpen(false)}>Case Studies</a></li>

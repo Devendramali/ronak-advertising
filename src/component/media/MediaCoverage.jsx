@@ -12,7 +12,7 @@ const MediaCoverage = () => {
           author: "Mesbah",
           comments: 'Media Coverage',
           title: "Innovate and inspire daily to bring your brand to life with fresh, creative ideas that captivate and engage your audience.",
-          button: "Read More",
+          
         },
         {
           id: 2,
@@ -21,7 +21,7 @@ const MediaCoverage = () => {
           author: "Mesbah",
           comments: "Media Coverage",
           title: "Innovate and inspire daily to bring your brand to life with fresh, creative ideas that captivate and engage your audience.",
-          button: "Read More",
+          
         },
           {
           id: 1,
@@ -30,7 +30,7 @@ const MediaCoverage = () => {
           author: "Mesbah",
           comments: 'Media Coverage',
           title: "Innovate and inspire daily to bring your brand to life with fresh, creative ideas that captivate and engage your audience.",
-          button: "Read More",
+          
         },
         {
           id: 2,
@@ -39,7 +39,7 @@ const MediaCoverage = () => {
           author: "Mesbah",
           comments: "Media Coverage",
           title: "Innovate and inspire daily to bring your brand to life with fresh, creative ideas that captivate and engage your audience.",
-          button: "Read More",
+          
         },
       ];
   return (

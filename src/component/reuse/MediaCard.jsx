@@ -29,7 +29,9 @@ const MediaCard = ({data}) => {
             <p>{data.discription}</p>
             </div>
             </div>
-              <div className="awrap">
+            {
+             data.button && (
+                  <div className="awrap">
                  <button className='btn2 bg-white'>
             Read More
             <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,6 +40,8 @@ const MediaCard = ({data}) => {
 
           </button>
               </div>
+              )
+            }
 
     </a>
   )

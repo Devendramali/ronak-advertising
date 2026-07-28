@@ -120,7 +120,8 @@ margin-right: 0; */
 .btn2:hover svg path{
   fill: #fff;
 }
-.btn2:hover {
+.btn2:hover,
+.awrap .btn2:hover {
   color: var(--White, #fff);
   background-color: #DD2B1C;
 }
